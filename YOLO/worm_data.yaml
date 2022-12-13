@@ -1,0 +1,6 @@
+train: ../worm_dataset/images/train/ 
+val:  ../worm_dataset/images/val/
+test: ../worm_dataset/images/test/
+
+nc: 2
+names: ['pbw','abw']

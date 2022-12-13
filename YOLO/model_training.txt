@@ -1,0 +1,7 @@
+// NOTE: make sure you are under the folder path `yolov5`
+// before running, add `worm_data.yaml` inside the folder `yolov5/data`
+// run the following commands in terminal to train model
+
+
+python train.py --img 640 --cfg yolov5s.yaml --hyp hyp.scratch-med.yaml --batch 32 --epochs 10 --data worm_data.yaml --weights yolov5s.pt --name yolo_worm_det --device 0
+python detect.py --source worm_dataset/images/val/ --weights runs/train/yolo_worm_det/weights/best.pt --conf 0.25 --name yolo_worm_det
