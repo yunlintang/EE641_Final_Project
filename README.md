@@ -23,8 +23,9 @@ pip install -r requirements.txt
 │   ├── Train.csv
 │   ├── images.zip
 │   ├── images_bboxes.csv
-├── FASTERRCNN
-│   ├── 
+├── FASTER_R-CNN
+│   ├── data.ipynb
+│   ├── evaluation.ipynb
 ├── MASK_R-CNN
 │   ├── calculate_mae_from_validataion_result.py
 │   ├── mask_rcnn_r101_fpn_1x_voc.py
