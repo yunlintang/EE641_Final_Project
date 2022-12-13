@@ -51,5 +51,6 @@ pip install -r requirements.txt
 - prepare annotations for YOLO from XML: https://blog.paperspace.com/train-yolov5-custom-data/
 - yolov5: https://github.com/ultralytics/yolov5
 - mmdetection on VOC: https://blog.csdn.net/AI414010/article/details/109513369
+- mmdetection github: https://github.com/open-mmlab/mmdetection
 
 
