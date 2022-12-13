@@ -25,7 +25,7 @@ pip install -r requirements.txt
 │   ├── images_bboxes.csv
 ├── FASTERRCNN
 │   ├── data.ipynb
-│   ├── test.ipynb
+│   ├── evaluation.ipynb
 ├── MASK_R-CNN
 │   ├── calculate_mae_from_validataion_result.py
 │   ├── mask_rcnn_r101_fpn_1x_voc.py
