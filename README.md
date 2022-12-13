@@ -48,5 +48,7 @@ pip install -r requirements.txt
 ## References
 - convert POLYGON bounding boxes to XML: https://github.com/ruankie/poly2pascal
 - prepare annotations for YOLO from XML: https://blog.paperspace.com/train-yolov5-custom-data/
+- yolov5: https://github.com/ultralytics/yolov5
+- mmdetection on VOC: https://blog.csdn.net/AI414010/article/details/109513369
 
 
